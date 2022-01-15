@@ -1,11 +1,11 @@
 @font-face {
     font-family: Josefin-sans-normal;
-    src: url("Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+    src: url("JosefinSans-VariableFont_wght.ttf");
 }
 
 @font-face {
     font-family: Josefin-sans-light;
-    src: url("Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+    src: url("JosefinSans-VariableFont_wght.ttf");
     font-weight:350;
 }
 
