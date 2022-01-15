@@ -1,0 +1,454 @@
+@font-face {
+    font-family: Josefin-sans-normal;
+    src: url("Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Josefin-sans-light;
+    src: url("Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+    font-weight:350;
+}
+
+:root{
+    --blue:#92C1BE;
+    --gray:#4d4b4b;
+    font-family: Josefin-sans-normal, sans-serif;
+}
+
+header{
+    background-image: url("wordpress_blogcard_eyecatch\ 2.jpg");
+    width:100% 100%;
+    height:40em;
+    background-size:cover;
+    color:white;
+    margin:-1em -0.5em 5em -0.5em;
+    left:0px;
+    right:0px;
+}
+
+.logo{
+    width:15em;
+    height:100%;
+    margin:0em 5em;
+}
+
+#topo{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#navbar{
+    padding:1em;
+    margin-top:2em;
+    align-items:center;
+    transform:translateX(-5%);
+}
+
+#navbar a{
+    text-decoration: none;
+    padding:1em;
+    font-size: 1.3em;
+    color:white;
+    transition:all 0.2s;
+    font-weight: lighter;
+}
+
+#navbar a:hover{
+    filter:invert(60%);
+    cursor:pointer;
+}
+
+
+.icons{
+    filter:invert(100%);
+    width:2em;
+    height:2em;
+    padding:0.5em;
+    margin-top:2em;
+    transition:all 0.3s;
+}
+
+.icons:hover{
+    cursor:pointer;
+    filter: invert(40%);
+    margin-bottom:-0.5em;
+}
+
+#imagens{
+    margin:0em 7em;
+}
+
+#meio{
+    margin-top:8em;
+    margin-left:5em;
+    padding:1em;
+}
+
+
+#meio h1{
+    font-size: 3em;
+    margin-bottom:1.5em;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+#btt{
+    background:transparent;
+    border-color:white;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    transition:border-color 0.2s;
+}
+
+#btt img{
+    width:1.5em;
+    height:1.5em;
+    margin-left:1em;
+    filter:invert(100%);
+    transition:all 0.2s;
+}
+
+#btt:hover{
+    border-color:var(--gray);
+    color:var(--gray)
+}
+
+
+#btt:hover img{
+    filter: invert(26%) sepia(12%) saturate(7%) hue-rotate(47deg) brightness(95%) contrast(82%);
+}
+
+.fas{
+    margin:0.2em;
+}
+
+#setas{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin:-12em 1em 0em 1em;
+}
+
+.setas{
+    transition:all 0.2s;
+}
+
+.setas:hover{
+    cursor:pointer;
+    filter:invert(70%);
+}
+
+#setaEsquerda, #setaDireita{
+    transition:all 0.2s;
+}
+
+#setaDireita:hover{
+    margin-bottom:-0.5em;
+}
+
+#setaEsquerda:hover{
+    margin-bottom:-0.5em;
+}
+
+
+/*fim do header*/
+/*inicio do QUEM SOMOS*/
+
+
+
+#sobre{
+    display:flex;
+    margin:5em;
+    align-content:center;
+    justify-content:space-between;
+}
+
+#sobre img{
+    height:30em;
+    width:40em;
+    filter:brightness(93%) contrast(75%);
+}
+
+#texto h1{
+    font-size:3em;
+    font-weight: 100;
+}
+
+#texto p{
+    font-size:1.4em;
+    width:25em;
+    line-height: 1.3em;
+    margin-right:5em;
+    font-weight: normal;
+    color:var(--gray);
+}
+
+#texto button{
+    margin-top:4.5em;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    width:10em;
+}
+
+#texto button>img{
+    width:2em;
+    height:2em;
+    filter:invert(100%);
+    margin-left:1em;
+    transition:all 0.2s;
+}
+
+#texto button:hover img{
+    filter: invert(86%) sepia(33%) saturate(263%) hue-rotate(123deg) brightness(84%) contrast(80%);
+}
+
+
+/*Fim do QUEM SOMOS*/
+/* Inicio dos Valores*/
+
+#valor{
+    margin:5em;
+}
+
+#valores{
+    display:flex;
+}
+
+.valores{
+    text-align:center;
+    border-right:2px solid #f0eded;
+    padding:2em;
+    width:fit-content
+}
+
+#borderless{
+    border:none;
+    margin-top:-0.1em;
+}
+
+#borderless p{
+    margin-top:0.1em;
+}
+
+.valores h1{
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.valores p{
+    font-size:1.5em;
+    text-justify: auto;
+    width:auto;
+    color:var(--gray);
+    font-weight:500;
+    line-height:1.3em;
+}
+
+.valImg{
+    width:12em;
+}
+
+/*Fim dos valores*/
+/*Pausa*/
+
+#pausa{
+    background-image: url("ditch_the_assignment_notebook\ 2.jpg");
+    background-size:100%;
+    height:25em;
+    color:white;
+    margin:5em -0.5em;
+}
+
+#pausa>h2{
+    margin:2em 5em;
+}
+
+#pausa h1{
+    margin-left:2.2em;
+    font-family:Josefin-sans-light;
+    font-weight:lighter;
+    font-size:3em;
+    text-align:left;
+    width:15em;
+    line-height:1.3em;
+}
+
+/*Pausa*/
+/*PROCESSO*/
+
+#processo{
+    margin:5em;
+}
+
+#processo h1{
+    font-size:3.5em;
+    font-weight: lighter;
+}
+
+#passos-processo{
+    display:flex;
+    justify-content: space-between;
+    align-content:center;
+}
+
+.processo{
+    width:fit-content;
+    padding:2em;
+    height:15em;
+    text-align:center;
+}
+
+.processo h{
+    font-size:2em;
+}
+
+.processo p{
+    line-height:1.3em;
+    font-size:1.3em;
+    padding:0.5em;
+}
+
+.numbers{
+    width:0.3em;
+    height:0.3em;
+    padding:0.5em;
+    padding-top:0.55em;
+    border-radius: 50%;
+    border:3px solid var(--blue);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 3.2em;
+    margin:auto;
+    margin-bottom:0.5em;
+}
+
+#processo button>img{
+    width:2em;
+    height:auto;
+    filter:invert(100%);
+    margin-left:0.5em;
+}
+
+#processo button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:6em;
+}
+
+#processo button:hover img{
+    filter: invert(87%) sepia(24%) saturate(330%) hue-rotate(126deg) brightness(83%) contrast(85%);
+}
+
+/*PROCESSO*/
+/*Rodapé*/
+
+footer{
+    background:rgb(31,31,31);
+    color:white;
+    width:101.5%;
+    height:20em;
+    margin-bottom:-1em;
+    margin-left:-1em;
+}
+
+#esquerda{
+    margin: 0em 5em;
+    text-align:left;
+    line-height:3em;
+}
+
+#esquerda img{
+    transform:translateX(-7em);
+    margin-bottom:-2em;
+}
+
+#esquerda nav>a{
+    text-decoration:none;
+    color:#707070;
+    transition:all 0.2s;
+}
+
+#base{
+    font-weight:bolder;
+}
+
+#esquerda nav>a:hover:not(#base){
+    cursor:pointer;
+    color:white;
+    cursor:pointer;
+}
+
+
+#esquerda p1{
+    margin-right:2em;
+}
+
+#esquerda p2, p3{
+    color:#707070;
+    margin:0em 2em 0em 0em;
+}
+
+
+#direita{
+    margin:0em 5em;
+    position:relative;
+    text-align:right;
+    z-index:0;
+    transform:translateY(-9em);
+}
+
+#direita a{
+    text-decoration:none;
+    color:#707070;
+    font-weight:bold;
+    transition:all 0.2s;
+    margin:0em 1em;
+    font-size:1.2em;
+}
+
+#direita a:hover{
+    color:white;
+}
+
+#copyright{
+    font-size:0.8em;
+    color:var(--blue)
+}
+
+
+/*Rodapé*/
+/*Outras funções gerais*/
+
+button{
+    width:9em;
+    height:2.5em;
+    font-size:1.3em;
+    border-radius:5em 5em;
+    background:var(--blue);
+    color:white;
+    transition:all 0.2s;
+    border-color:var(--blue);
+    border-style:solid;
+    font-family:Josefin-sans-normal;
+}
+
+button:hover{
+    background:transparent;
+    color:var(--blue);
+    cursor:pointer;
+}
+
+.titulos{
+    color:var(--blue);
+    font-size:1.3em;
+    font-weight:bolder;
+}
+
+p{
+    font-family: Josefin-sans-light;
+}
