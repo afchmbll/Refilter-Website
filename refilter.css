@@ -370,6 +370,7 @@ footer{
 #esquerda nav>a{
     text-decoration:none;
     color:#707070;
+    margin:0em 1em 0em 0em;
     transition:all 0.2s;
 }
 
