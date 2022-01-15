@@ -1,11 +1,11 @@
 @font-face {
     font-family: Josefin-sans-normal;
-    src: url("../Refilter-Website/JosefinSans-VariableFont_wght.ttf");
+    src: url("../Refilter-Website/JosefinSans-VariableFont_wght.ttf") format("truetype");
 }
 
 @font-face {
     font-family: Josefin-sans-light;
-    src: url("../Refilter-Website/JosefinSans-VariableFont_wght.ttf");
+    src: url("../Refilter-Website/JosefinSans-VariableFont_wght.ttf") format("truetype");
     font-weight:350;
 }
 
